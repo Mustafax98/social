@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إدارة العملاء</title>
+  <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+  <div class="container">
+   <div class="taps">
+      <ul>
+        <li><a href="/index.html">home</a></li>
+        <li><a href="/dashboard.html">dashboard</a></li>
+        <li><a href="/accounts.html">accounts</a></li>
+        <li><a href="/analytics.html">analytics</a></li>
+        <li><a href="/calender.html">calender</a></li>
+        <li><a href="/comments-messages.html">comments-messages</a></li>
+        <li><a href="/creat bost.html">creat bost</a></li>
+        <li><a href="/media library.html">media library</a></li>
+        <li><a href="/approval-workflow.html">approval-workflow</a></li>
+        <li><a href="/client-management.html">client-management</a></li>
+        <li><a href="/Team Management.html">Team Management</a></li>
+        <li><a href="/mobile-integration.html">mobile-integration</a></li>
+        <li><a href="/notifications.html">notifications</a></li>
+        <li><a href="/settings.html">settings</a></li>
+      </ul>
+    </div>
+
+    <header class="header">
+      <h1>إدارة العملاء - مطاعم / براندات</h1>
+    </header>
+
+    <section class="clients-list">
+      <h2>العملاء الحاليين</h2>
+      <div class="client-box">
+        <h3>مطعم البرنس</h3>
+        <p>الحسابات المرتبطة: فيسبوك، إنستجرام</p>
+        <button>عرض التفاصيل</button>
+        <button class="danger">إزالة</button>
+      </div>
+
+      <div class="client-box">
+        <h3>بيتزا ماستر</h3>
+        <p>الحسابات المرتبطة: فيسبوك، تيك توك</p>
+        <button>عرض التفاصيل</button>
+        <button class="danger">إزالة</button>
+      </div>
+    </section>
+
+    <section class="add-client">
+      <h2>إضافة عميل جديد</h2>
+      <form>
+        <label>اسم العميل / المطعم:</label>
+        <input type="text" placeholder="مثال: مطعم زايد برجر">
+
+        <label>البريد الإلكتروني للتواصل:</label>
+        <input type="email" placeholder="example@brand.com">
+
+        <label>المنصات المستخدمة:</label>
+        <div class="platforms">
+          <label><input type="checkbox"> فيسبوك</label>
+          <label><input type="checkbox"> إنستجرام</label>
+          <label><input type="checkbox"> تيك توك</label>
+        </div>
+
+        <button type="submit">إضافة العميل</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
